@@ -1,8 +1,8 @@
 {
   "posts": [
-    { "id": 1, "title": "Hello World" }
-  ],
-  "comments": [
-    { "id": 1, "body": "Nice post!", "postId": 1 }
+    { "id": 1, "name": "Hello", "params":{}, "text": "Hello World" },
+    { "id": 2, "name": "Calculate", "params":{"expression": "1+1"}, "text": "125" },
+    { "id": 3, "name": "Weather", "params":{"city": "Hangzhou","time":"tomorrow"}, "text": "sunny" },
+    { "id": 4, "name": "OrderFood", "params":{"name":"shao","phone":"123","food":"noodles","time":"tomorrow"}, "text": "It's done!"}
   ]
 }
